@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1749205680939' stop='1749205815766'>
+    <name>Ventas Digitales Estatus de tu solicitud</name>
+    <title>Ventas Digitales Estatus de tu solicitud</title>
+    <test-cases>
+        <test-case start='1749205680973' status='broken' stop='1749205814215'>
+            <name>Check the Digital Sales Status for your "Abiertas" request</name>
+            <title>Check the Digital Sales Status for your "Abiertas" request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Ventas Digitales Estatus de tu solicitud'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 7 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1749205680975' status='passed' stop='1749205707733'>
+                    <name>Given the PreLogin is displayed</name>
+                    <title>Given the PreLogin is displayed</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cfdb60ef-2b2e-412e-aef0-7747fd3767b0-attachment.png' type='image/png' size='253569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205707733' status='passed' stop='1749205709667'>
+                    <name>And the user tap the button Acceder in Prelogin screen</name>
+                    <title>And the user tap the button Acceder in Prelogin screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d329df63-5717-4f12-a3c1-f90f066aa97b-attachment.png' type='image/png' size='253569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205709667' status='passed' stop='1749205723192'>
+                    <name>And user login with username "michellebrown" and "321321"</name>
+                    <title>And user login with username "michellebrown" and "321321"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ac959abc-b0d9-41fa-bfeb-da80b4d0317f-attachment.png' type='image/png' size='215171'/>
+                        <attachment title='Screenshot' source='04728188-144e-4dd5-87a6-7aabf4d6ffc1-attachment.png' type='image/png' size='80103'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205723192' status='passed' stop='1749205754436'>
+                    <name>Then the screen of Dashboard should displayed</name>
+                    <title>Then the screen of Dashboard should displayed</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d631c2f1-8dd1-4b97-9675-27b2ba913d84-attachment.png' type='image/png' size='297229'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205754436' status='passed' stop='1749205754933'>
+                    <name>When the user tap the burger menu</name>
+                    <title>When the user tap the burger menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4445760f-fa54-42dc-97c9-e1c7d4bd4dc9-attachment.png' type='image/png' size='221651'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205754933' status='passed' stop='1749205756016'>
+                    <name>And user select Solicitar Productos from burguer menu</name>
+                    <title>And user select Solicitar Productos from burguer menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ccfd8949-a30b-4771-a7d6-0c8d204c1c04-attachment.png' type='image/png' size='242152'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205756016' status='passed' stop='1749205759373'>
+                    <name>And user select Solicitar Productos from Solicitud De Productos Submenu</name>
+                    <title>And user select Solicitar Productos from Solicitud De Productos Submenu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b6c8ca7d-b758-4696-90b3-9bbe1dac9c9b-attachment.png' type='image/png' size='242152'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205759373' status='passed' stop='1749205761491'>
+                    <name>And user select the "Estatus de tu solicitud" Option from Solicitud De Productos</name>
+                    <title>And user select the "Estatus de tu solicitud" Option from Solicitud De Productos</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d34c6976-69a3-48fe-b9ac-1b736bbbcf13-attachment.png' type='image/png' size='115902'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205761491' status='passed' stop='1749205763862'>
+                    <name>And user select the "Abiertas" Option from Solicitud De Productos</name>
+                    <title>And user select the "Abiertas" Option from Solicitud De Productos</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='234c2238-c2a1-4392-86bf-082f22ed7859-attachment.png' type='image/png' size='64396'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205763862' status='broken' stop='1749205814214'>
+                    <name>And Select one of the requests displayed on the screen</name>
+                    <title>And Select one of the requests displayed on the screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8e04ed6d-251d-4da9-8429-e8ee1e6c46c6-attachment.png' type='image/png' size='64345'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1749205814215' status='canceled' stop='1749205814215'>
+                    <name>Then the user should see the Application Status Check screen</name>
+                    <title>Then the user should see the Application Status Check screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1749205814215' status='broken' stop='1749205814215'>
+                    <name>Then the user Select "Volver atrás" to check the list of other request</name>
+                    <title>Then the user Select "Volver atrás" to check the list of other request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "the user Select "Volver atrás" to check the list of other request" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user Select "Volver atrás" to check the list of other request" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/siddhatech/Documents/Refactor_CoreLB/SQD-VD/SQD-app-personal-rediseno-webdriverio-android/features/mobile/34-VentasDigitalesEstatusDeTuSolicitud.feature):1:1
+                	at Scenario(Check the Digital Sales Status for your "Abiertas" request):21:5
+                	at Step(the user Select "Volver atrás" to check the list of other request):29:4
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
